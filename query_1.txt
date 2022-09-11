@@ -1,0 +1,3 @@
+SELECT  min(earnings_rank),name
+FROM 'movies','oscars'
+WHERE type = best-picture
