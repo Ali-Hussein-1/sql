@@ -1,0 +1,3 @@
+SELECT count(id)
+FROM 'students','departments'
+WHERE name='CS';
